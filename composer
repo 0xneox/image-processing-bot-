@@ -1,0 +1,20 @@
+{
+    "name": "neohex/image-processing-bot",
+    "description": "Image Processing Bot",
+    "keywords": [
+        "bot",
+        "download",
+        "images
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "rmccue/requests": ">=1.0"
+    },
+    "homepage": "https://github.com/neohex/image-processing-bot",
+    "type": "project",
+    "license": "The Unlicense",
+    "support": {
+        "issues": "https://github.com/neohex/image-processing-botissues?state=open",
+        "source": "https://github.com/neohex/image-processing-bot"
+    }
+}
