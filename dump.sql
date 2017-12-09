@@ -24,7 +24,6 @@ SET time_zone = "+00:00";
 
 --
 -- Table structure for table `images`
---
 
 CREATE TABLE `images` (
   `id` int(11) NOT NULL,
@@ -32,7 +31,6 @@ CREATE TABLE `images` (
   `url` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
 -- Indexes for dumped tables
 --
 
@@ -42,7 +40,6 @@ CREATE TABLE `images` (
 ALTER TABLE `images`
 ADD PRIMARY KEY (`id`),
 ADD UNIQUE KEY `url` (`url`);
-
 --
 -- AUTO_INCREMENT for dumped tables
 --
